@@ -15,7 +15,8 @@ public class Main {
         for (int i = 0; i<proceed.length; i++){
 
 
-            String temp = "words/Anastasia/wav edited/" + proceed[i] + ".wav";
+//            String temp = "words/Anastasia/wav edited/" + proceed[i] + ".wav";
+            String temp = "words/Vitalii/wav edited/" + proceed[i] + ".wav";
             Sound.playSound(temp).join();
         }
     }
